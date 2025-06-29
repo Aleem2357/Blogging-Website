@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #3333ff;
+    background-color: #33f;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -25,7 +25,7 @@ header h1 {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 30px;
 }
 
@@ -40,7 +40,7 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.active {
     background-color: white;
-    color: #3333ff;
+    color: #33f;
 }
 
 main {
@@ -54,7 +54,7 @@ main {
 
 .hero h2 {
     font-size: 2.5rem;
-    color: #3333ff;
+    color: #33f;
     margin-bottom: 15px;
 }
 
@@ -76,11 +76,11 @@ main {
     border-radius: 8px;
     padding: 20px;
     width: 300px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
 }
 
 .feature-box h3 {
-    color: #3333ff;
+    color: #33f;
     margin-bottom: 10px;
 }
 
@@ -89,7 +89,7 @@ main {
 }
 
 footer {
-    background-color: #3333ff;
+    background-color: #33f;
     color: white;
     text-align: center;
     padding: 15px 0;
