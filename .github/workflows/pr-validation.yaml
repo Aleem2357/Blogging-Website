@@ -42,6 +42,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+      - name: Install Stylelint dependencies
+        run: npm install --save-dev stylelint stylelint-config-standard
 
       - name: Run Parcel build
         run: npx parcel build src/index.html
